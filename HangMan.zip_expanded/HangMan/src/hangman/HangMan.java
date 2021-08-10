@@ -75,10 +75,10 @@ public class HangMan {
         hangManDrawing(numOfFails);
         System.out.print("      " + register);
         if(Arrays.equals(hiddenWord, stringWord)){
-            System.out.println("\n\nYou Won !!");
+            System.out.println("\n\nGanaste !!");
             return false;
         } else if (numOfFails == 7) {
-            System.out.print("\n\nYou Lose !! The secret word is: ");
+            System.out.print("\n\nPerdiste !! La palabra secreta es: ");
             System.out.println(word);
             return false;
         } else {
