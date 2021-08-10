@@ -8,8 +8,8 @@ import java.util.Arrays;
 public class HangMan {
 
     public static void main(String[] args){
-        System.out.println("              HangMan game ");
-        System.out.println("  Word        Errors      Used letters");
+        System.out.println("              Juego del Ahorcado ");
+        System.out.println("  Palabra        Errores     Letras usadas");
                     
         startGame();
     }
@@ -98,7 +98,7 @@ public class HangMan {
 
     public static void startGame(){
         String[] words = {"humanidad", "humano", "persona", "gente", "hombre", "mujer", "adolescente", "caballero",
-        "dama", "cuerpo", "pierna", "cabeza", "cara", "abdomen", "salud", "familia", "viajes", "dinero"};
+        "dama", "cuerpo", "pierna", "cabeza", "cara", "abdomen", "salud", "familia", "viajes", "carro"};
         String word = randomWord(words);
         String[] stringWord = wordToArray(word);
         String[] hiddenWord = hiddenWord(word);
